@@ -1,0 +1,91 @@
+.baby-photo-block{
+    position: relative;  
+    min-height: 100vh;  
+    overflow-x: hidden;
+}
+
+.babyLera{
+    padding: 7%;
+    width: 45%;
+    transform: rotate(-11deg);
+    position: absolute;
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,0.4)); 
+}
+
+.babySasha {
+    padding-top: 30%;
+    padding-left: 53%;
+    width: 45%;
+    transform: rotate(8deg);
+    position: absolute;
+    filter: drop-shadow(10px 14px 20px rgba(0,0,0,0.4)); 
+}
+
+.five-stars {
+    width: 30%;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 60%;
+}
+
+.heart-between {
+    width: 15%;
+    position: absolute;
+    padding-top: 45%;
+    padding-left: 47%;
+}
+.two-stars {
+    width: 15%;
+    position: absolute;
+    padding-top: 80%;
+    padding-left: 20%;
+}
+
+.names-block {
+    position: relative;  
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.names {
+    position: absolute;
+    font-family: "KudryWeirdHeadline";
+    font-size: 8vw;
+    margin-top: 110%;
+    font-weight: 100;
+    color: #8e0308;
+}
+
+.names-heart{
+    position: absolute;
+    margin-top: 125%;
+    width: 15%;
+}
+
+.date1, .date2, .date3 {
+    font-family: "KudryWeirdHeadline";
+    position: absolute;
+    color: #8e0308;
+}
+
+.date-block {
+    padding: 5%;
+}
+
+.date1 {
+    font-size: 35vw;
+    margin-top: 135%;
+    margin-left: 2%;
+}
+
+.date2 {
+    font-size: 20vw;
+    margin-top: 133%;
+    margin-left: 42%;
+}
+.date3 {
+    font-size: 20vw;
+    margin-top: 149%;
+    margin-left: 43%;
+}
