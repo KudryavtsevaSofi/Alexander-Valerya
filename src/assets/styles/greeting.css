@@ -1,7 +1,11 @@
+.greeting-wrap {
+    position:static;
+}
+
 .baby-photo-block{
     position: relative;  
     min-height: 100vh;  
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .babyLera{
@@ -52,6 +56,8 @@
     position: absolute;
     font-family: "KudryWeirdHeadline";
     font-size: 8vw;
+    /* font-family: "DisruptorsScript";
+    font-size: 12vw; */
     margin-top: 110%;
     font-weight: 100;
     color: #8e0308;

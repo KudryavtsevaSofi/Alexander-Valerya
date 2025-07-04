@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import '../assets/styles/main.css';
 import Heart1 from '../assets/images/heart1.png';
 import Greeting from '../components/greeting';
+import Guess from '../components/guess';
 
 const MainPage = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -27,6 +28,7 @@ const MainPage = () => {
             {isMobile ? (
             <div className='mobile-display'>
                 <Greeting/>
+                <Guess/>
             </div>
             ) : (
             <div className='desktop-display'>

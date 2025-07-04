@@ -30,19 +30,7 @@
     background-color: #deded8;
 }
 
-@font-face {
-  font-family: "AnnabelleCyr";
-  src: url("../fonts/AnnabelleCyr.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "KudryWeirdHeadline";
-  src: url("../fonts/kudry_weird-headline.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 
