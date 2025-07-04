@@ -3,6 +3,7 @@ import '../assets/styles/main.css';
 import Heart1 from '../assets/images/heart1.png';
 import Greeting from '../components/greeting';
 import Guess from '../components/guess';
+import Location from '../components/location';
 
 const MainPage = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -29,6 +30,7 @@ const MainPage = () => {
             <div className='mobile-display'>
                 <Greeting/>
                 <Guess/>
+                <Location/>
             </div>
             ) : (
             <div className='desktop-display'>

@@ -1,0 +1,7 @@
+/* @import "bootstrap/scss/carousel"; */
+
+.title-location {
+    font-family: 'AnnabelleCyr';
+    font-size: clamp(24px, 10vw, 80px); /* Минимальный, предпочтительный, максимальный размер */
+    color: #8e0308;
+}

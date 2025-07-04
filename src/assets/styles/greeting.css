@@ -1,72 +1,93 @@
 .greeting-wrap {
-    position:static;
+    position: static;
+    width: 100%;
+    min-height: 100vh; /* Фиксируем высоту секции */
 }
 
-.baby-photo-block{
+.baby-photo-block {
     position: relative;  
-    min-height: 100vh;  
-    overflow: hidden;
+    width: 100%;
+    height: 45vh; /* Фиксируем высоту блока */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.babyLera{
-    padding: 7%;
+.babies-container {
+    position: relative;
+    width: 100%;
+    height: 40vh; /* Фиксированная высота контейнера для фото */
+    margin-bottom: 2vh;
+}
+
+.babyLera {
     width: 45%;
     transform: rotate(-11deg);
     position: absolute;
+    left: 7%;
+    top: 7%;
     filter: drop-shadow(-10px 10px 20px rgba(0,0,0,0.4)); 
 }
 
 .babySasha {
-    padding-top: 30%;
-    padding-left: 53%;
     width: 45%;
     transform: rotate(8deg);
     position: absolute;
+    left: 50%;
+    top: 30%;
     filter: drop-shadow(10px 14px 20px rgba(0,0,0,0.4)); 
 }
 
 .five-stars {
     width: 30%;
     position: absolute;
-    padding-top: 10%;
-    padding-left: 60%;
+    top: 0;
+    left: 55%;
 }
 
 .heart-between {
     width: 15%;
     position: absolute;
-    padding-top: 45%;
-    padding-left: 47%;
+    top: 45vw;
+    left: 47%;
 }
+
 .two-stars {
     width: 15%;
     position: absolute;
-    padding-top: 80%;
-    padding-left: 20%;
+    top: 80vw;
+    left: 20%;
 }
 
 .names-block {
-    position: relative;  
-    display: flex;
+    position: relative;
+    /* display: flex; */
     width: 100%;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .names {
     position: absolute;
     font-family: "KudryWeirdHeadline";
-    font-size: 8vw;
+    font-size: 8vw; /* Добавил clamp для контроля размеров */
     /* font-family: "DisruptorsScript";
     font-size: 12vw; */
-    margin-top: 110%;
-    font-weight: 100;
+    top: 53vh;
     color: #8e0308;
 }
 
-.names-heart{
+.names-heart {
     position: absolute;
-    margin-top: 125%;
-    width: 15%;
+    top: 60vh;
+    width: 15vw;
+    max-width: 100px; /* Ограничение максимального размера */
+    left: 45%;
+}
+
+.date-block {
+    position: relative;
+    padding: 5%;
+    margin-top: 10vh;
 }
 
 .date1, .date2, .date3 {
@@ -75,23 +96,20 @@
     color: #8e0308;
 }
 
-.date-block {
-    padding: 5%;
-}
-
 .date1 {
-    font-size: 35vw;
-    margin-top: 135%;
-    margin-left: 2%;
+    font-size: clamp(5rem, 35vw, 20rem);
+    top: 1040%;
+    left: 7%;
 }
 
 .date2 {
-    font-size: 20vw;
-    margin-top: 133%;
-    margin-left: 42%;
+    font-size: clamp(3rem, 20vw, 12rem);
+    top: 1040%;
+    left: 45%;
 }
+
 .date3 {
-    font-size: 20vw;
-    margin-top: 149%;
-    margin-left: 43%;
+    font-size: clamp(3rem, 20vw, 12rem);
+    top: 1200%;
+    left: 46%;
 }
