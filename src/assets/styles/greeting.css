@@ -1,7 +1,10 @@
+/* GREETING /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .greeting-wrap {
     position: static;
     width: 100%;
-    min-height: 100vh; /* Фиксируем высоту секции */
+    min-height: 90vh; /* Фиксируем высоту секции */
+    overflow: hidden;
 }
 
 .baby-photo-block {
@@ -59,36 +62,40 @@
     left: 20%;
 }
 
-.names-block {
+.date-block {
     position: relative;
-    /* display: flex; */
+    padding: 5%;
+    top: 20vw;
+}
+
+.names-block {
+    position: absolute;
     width: 100%;
-    justify-content: center;
+    top: 750%;
+    left: 0;
 }
 
 .names {
-    position: absolute;
+    padding: 10%;
     font-family: "KudryWeirdHeadline";
-    font-size: 8vw; /* Добавил clamp для контроля размеров */
-    /* font-family: "DisruptorsScript";
-    font-size: 12vw; */
-    top: 53vh;
+    font-size: clamp(2rem, 8vw, 6rem);
+    position: absolute;
+    top: 0;
+    left: 0;
     color: #8e0308;
+    white-space: nowrap;
 }
 
 .names-heart {
     position: absolute;
-    top: 60vh;
-    width: 15vw;
-    max-width: 100px; /* Ограничение максимального размера */
-    left: 45%;
+    width: clamp(30px, 15vw, 100px);
+    top: 23vw;
+    left: 48%;
 }
 
-.date-block {
-    position: relative;
-    padding: 5%;
-    margin-top: 10vh;
-}
+/* .dates {
+    padding-top: 2%;
+} */
 
 .date1, .date2, .date3 {
     font-family: "KudryWeirdHeadline";
@@ -98,18 +105,19 @@
 
 .date1 {
     font-size: clamp(5rem, 35vw, 20rem);
-    top: 1040%;
+    top: 1140%;
     left: 7%;
 }
 
 .date2 {
     font-size: clamp(3rem, 20vw, 12rem);
-    top: 1040%;
+    top: 1140%;
     left: 45%;
 }
 
 .date3 {
     font-size: clamp(3rem, 20vw, 12rem);
-    top: 1200%;
+    top: 1300%;
     left: 46%;
 }
+
