@@ -1,26 +1,23 @@
-/* GREETING /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
+/* GREETING STYLES */
 .greeting-wrap {
-    position: static;
     width: 100%;
-    min-height: 90vh; /* Фиксируем высоту секции */
-    overflow: hidden;
+    padding: 1rem 0;
 }
 
 .baby-photo-block {
-    position: relative;  
+    position: relative;
     width: 100%;
-    height: 45vh; /* Фиксируем высоту блока */
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .babies-container {
     position: relative;
-    width: 100%;
-    height: 40vh; /* Фиксированная высота контейнера для фото */
-    margin-bottom: 2vh;
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
 }
 
 .babyLera {
@@ -51,73 +48,66 @@
 .heart-between {
     width: 15%;
     position: absolute;
-    top: 45vw;
+    top: 45%;
     left: 47%;
 }
 
 .two-stars {
     width: 15%;
     position: absolute;
-    top: 80vw;
+    top: 80%;
     left: 20%;
 }
 
 .date-block {
-    position: relative;
-    padding: 5%;
-    top: 20vw;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .names-block {
-    position: absolute;
-    width: 100%;
-    top: 750%;
-    left: 0;
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 .names {
-    padding: 10%;
     font-family: "KudryWeirdHeadline";
     font-size: clamp(2rem, 8vw, 6rem);
-    position: absolute;
-    top: 0;
-    left: 0;
     color: #8e0308;
-    white-space: nowrap;
 }
 
 .names-heart {
-    position: absolute;
     width: clamp(30px, 15vw, 100px);
-    top: 23vw;
-    left: 48%;
+    margin-top: 1rem;
 }
 
-/* .dates {
-    padding-top: 2%;
-} */
+.dates {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
 
 .date1, .date2, .date3 {
     font-family: "KudryWeirdHeadline";
-    position: absolute;
     color: #8e0308;
+    margin: 0.5rem 0;
+    position: absolute;
 }
 
 .date1 {
     font-size: clamp(5rem, 35vw, 20rem);
-    top: 1140%;
-    left: 7%;
+    top: 97% !important;
+    left: 7% !important;
 }
 
 .date2 {
     font-size: clamp(3rem, 20vw, 12rem);
-    top: 1140%;
+    top: 97%;
     left: 45%;
 }
 
 .date3 {
     font-size: clamp(3rem, 20vw, 12rem);
-    top: 1300%;
+    top: 110%;
     left: 46%;
 }
-

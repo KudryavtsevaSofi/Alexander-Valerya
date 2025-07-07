@@ -8,32 +8,26 @@ import NamesHeart from '../assets/images/heart2.png';
 
 const Greeting = () => {
     return (
-        <div>
-            <div className="greeting-wrap">
-                <div className="baby-photo-block">
-                    <div className='babies-container'> {/* Новый контейнер для фото детей */}
-                        <img className='babyLera' src={Lera} ></img>
-                        <img className='babySasha' src={Sasha}></img>
-                        <div className='decorate-imgs'>
-                            <img className='five-stars' src={FiveStars}></img>
-                            <img className='heart-between' src={HeartBetween}></img>
-                            <img className='two-stars' src={TwoStars}></img>
-                        </div>
-                        <div className='names-block'>
-                            {/* <p className='names'>Александр + Валерия =</p>
-                            <img className='names-heart' src={NamesHeart}></img> */}
-                        </div>
-                        <div className='date-block'>
-                            <div className='names-block'>
-                                <p className='names'>Александр + Валерия =</p>
-                                <img className='names-heart' src={NamesHeart}></img>
-                            </div>
-                            <div className='dates'>
-                                <p className='date1'>24</p>
-                                <p className='date2'>июля</p>
-                                <p className='date3'>2025</p>
-                            </div>
-                        </div>
+        <div className="greeting-wrap">
+            <div className="baby-photo-block">
+                <div className='babies-container'>
+                    <img className='babyLera' src={Lera} alt="Лера" />
+                    <img className='babySasha' src={Sasha} alt="Саша" />
+                    <div className='decorate-imgs'>
+                        <img className='five-stars' src={FiveStars} alt="Звёзды" />
+                        <img className='heart-between' src={HeartBetween} alt="Сердечко" />
+                        <img className='two-stars' src={TwoStars} alt="Звёзды" />
+                    </div>
+                </div>
+                <div className='date-block'>
+                    <div className='names-block'>
+                        <p className='names'>Александр + Валерия =</p>
+                        <img className='names-heart' src={NamesHeart} alt="Сердечко" />
+                    </div>
+                    <div className='dates'>
+                        <p className='date1'>24</p>
+                        <p className='date2'>июля</p>
+                        <p className='date3'>2025</p>
                     </div>
                 </div>
             </div>

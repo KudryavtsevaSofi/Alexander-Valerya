@@ -11,22 +11,23 @@ const Guess = () => {
         <div className="guess-wrap">
             <div className="text-block">
                 <p className="title">Уже догадались?</p>
-                <p className='main-text'>Эти милые малыши - это мы в детстве! Кажется, что совсем недавно мы делали свои первые шаги, 
-                    а уже сегодня приглашаем вас стать свидетелями важного события в нашей жизни</p>
+                <p className='main-text'>
+                    Эти милые малыши - это мы в детстве! Кажется, что совсем недавно мы делали свои первые шаги, 
+                    а уже сегодня приглашаем вас стать свидетелями важного события в нашей жизни
+                </p>
             </div>
             <div className="photo-block">
                 <div className='decorate-imgs'>
-                    <img className='heart-high' src={HeartCollage}></img>
+                    <img className='heart-high' src={HeartCollage} alt="Сердечко" />
                 </div>
                 <div className='collage-block'>
-                    <img className='collage' src={Collage3}></img>
+                    <img className='collage' src={Collage3} alt="Коллаж" />
                 </div>
                 <div className='background-t'>
                     <p className="background-text">это по любви</p>
                     <p className="background-text">это по любви</p>
                     <p className="background-text-red">это по любви</p>
                 </div>
-
             </div>
         </div>
     );
