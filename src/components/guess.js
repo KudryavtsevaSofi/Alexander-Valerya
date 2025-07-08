@@ -1,9 +1,5 @@
 import '../assets/styles/guess.css';
-import Collage1 from '../assets/images/collage1.jpg';
-import Collage2 from '../assets/images/collage2.jpg';
 import Collage3 from '../assets/images/collage3.jpg';
-import Collage4 from '../assets/images/collage4.jpg';
-import Collage5 from '../assets/images/collage5.jpg';
 import HeartCollage from '../assets/images/heart4.png'; 
 
 const Guess = () => {

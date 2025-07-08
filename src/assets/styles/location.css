@@ -1,6 +1,6 @@
 .title-location {
     font-family: 'AnnabelleCyr';
-    font-size: clamp(24px, 10vw, 80px); /* Минимальный, предпочтительный, максимальный размер */
+    font-size: clamp(24px, 10vw, 80px);
     color: #8e0308;
     text-align: end;
     padding-right: 5%;
@@ -23,9 +23,6 @@
     font-family: "YsabeauSCLight";
     color: #8e0308;
     font-weight: 600;
-    /* width: 100%;
-    max-width: 800px; */
-    /* margin: 0 auto; */
 }
 
 .details-wrap {
@@ -34,10 +31,9 @@
 
 .title-details {
     font-family: 'AnnabelleCyr';
-    font-size: clamp(24px, 10vw, 80px); /* Минимальный, предпочтительный, максимальный размер */
+    font-size: clamp(24px, 10vw, 80px);
     color: #8e0308;
     text-align: center;
-    /* padding-left: 5%; */
 }
 
 .details1 {
@@ -83,7 +79,6 @@
 }
 
 .happy-end {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -92,7 +87,6 @@
 .happy-title{
     font-family: "KudryWeirdHeadline";
     font-size: clamp(2rem, 8vw, 6rem);
-    /* color: #8e0308; */
 }
 
 .happy-text {

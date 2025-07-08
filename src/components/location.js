@@ -1,16 +1,10 @@
 import { Carousel } from 'react-bootstrap';
-import Zags1 from '../assets/images/zags1.jpg';
 import Zags2 from '../assets/images/zags2.jpg';
 import Zags3 from '../assets/images/zags3.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../assets/styles/location.css';
 import Bouquet from '../assets/images/bouquet.png';
-import DressCode from '../assets/images/dress-code.png';
-import DressCode1 from '../assets/images/dressCode.png';
-import Gift1 from '../assets/images/gift1.png';
-import Gift2 from '../assets/images/gift2.png';
 import Gift3 from '../assets/images/gift3.png';
-import Gift4 from '../assets/images/gift4.png';
 import HappyEnd from '../assets/images/happyend.png';
 
 const Location = () => {
@@ -46,7 +40,6 @@ const Location = () => {
             <div className='details-wrap'>
                 <p className='title-details'>Детали</p>
                 <div>
-                    {/* <img className='det-img1' src={DressCode}></img> */}
                     <p className='details1'>Для нас главное - Ваше присутствие! Но мы будем рады, если вы воздержитесь от джинс, 
                     спортивной одежды, а девушки - от белого цвета при выборе наряда. Будет замечательно, если вы отдадите 
                     предпочтение пастельным тонам и черному цвету.</p>
