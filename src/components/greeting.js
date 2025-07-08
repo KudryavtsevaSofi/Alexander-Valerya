@@ -19,16 +19,35 @@ const Greeting = () => {
                         <img className='two-stars' src={TwoStars} alt="Звёзды" />
                     </div>
                 </div>
-                <div className='date-block'>
-                    <div className='names-block'>
-                        <p className='names'>Александр + Валерия =</p>
-                        <img className='names-heart' src={NamesHeart} alt="Сердечко" />
-                    </div>
-                    <div className='dates'>
-                        <p className='date1'>24</p>
-                        <p className='date2'>июля</p>
-                        <p className='date3'>2025</p>
-                    </div>
+            </div>
+            <div className='date-block'>
+                <div className='names-block'>
+                    <p className='names'>Александр + Валерия =</p>
+                    <img className='names-heart' src={NamesHeart} alt="Сердечко" />
+                </div>
+                <div className='dates'>
+                    <svg
+                    version="1.1"
+                    viewBox="0 0 500 200"
+                    baseProfile="full"
+                    width="100%"
+                    height="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <foreignObject x="35" y="5" width="200" height="200">
+                            <div xmlns="http://www.w3.org/1999/xhtml" className='date1'>24</div>
+                        </foreignObject>
+                        <foreignObject x="220" y="0" width="250" height="200">
+                            <div xmlns="http://www.w3.org/1999/xhtml" className='date2'>июля</div>
+                        </foreignObject>
+                        <foreignObject x="220" y="80" width="250" height="200">
+                            <div xmlns="http://www.w3.org/1999/xhtml" className='date3'>2025</div>
+                        </foreignObject>
+                    </svg>
+
+                    {/* <p className='date1'>24</p>
+                    <p className='date2'>июля</p>
+                    <p className='date3'>2025</p> */}
                 </div>
             </div>
         </div>

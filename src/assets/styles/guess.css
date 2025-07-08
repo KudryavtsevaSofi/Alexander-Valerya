@@ -1,15 +1,17 @@
 .guess-wrap {
-    top: 10%;
     width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 0;
+    padding: 0;
+    min-height: 60vh;
     position: relative;
+    z-index: 2; /* Устанавливаем z-index выше, чем у greeting */
+    margin-top: 0; /* Убираем возможные отрицательные отступы */
 }
 
 .text-block {
     width: 90%;
-    margin: 10rem auto 2rem;
+    margin: 0 auto 2rem; /* Изменяем верхний отступ */
     text-align: center;
+    min-height: 10vh;
 }
 
 .title {
@@ -22,7 +24,7 @@
 .main-text {
     font-family: "YsabeauSCLight";
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -36,7 +38,7 @@
 .heart-high {
     position: absolute;
     width: 15%;
-    max-width: 150px;
+    max-width: 150%;
     top: 2%;
     right: 10%;
     transform: rotate(-16deg);
