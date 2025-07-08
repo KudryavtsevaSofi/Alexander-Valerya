@@ -44,10 +44,6 @@ const Greeting = () => {
                             <div xmlns="http://www.w3.org/1999/xhtml" className='date3'>2025</div>
                         </foreignObject>
                     </svg>
-
-                    {/* <p className='date1'>24</p>
-                    <p className='date2'>июля</p>
-                    <p className='date3'>2025</p> */}
                 </div>
             </div>
         </div>
