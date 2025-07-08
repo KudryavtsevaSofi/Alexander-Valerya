@@ -45,11 +45,11 @@ const Location = () => {
                     предпочтение пастельным тонам и черному цвету.</p>
                 </div>
                 <div>
-                    <img className='det-img2' src={Bouquet}></img>
+                    <img className='det-img2' src={Bouquet} alt='bouquet'></img>
                     <p className='details2'>Пожалуйста, не дарите нам цветы, мы не сможем им обеспечить должный уход и заботу</p>
                 </div>
                 <div>
-                    <img className='det-img3' src={Gift3}></img>
+                    <img className='det-img3' src={Gift3} alt='gift'></img>
                     <p className='details3'>Мы очень ценим вашу заботу и внимание к нашей семье! Если вы задумываетесь о подарке,
                     мы будем рады, если вы сделаете вклад в наш семейный бюджет, это поможет нам осуществить наши общие мечты! 
                     </p>
@@ -58,7 +58,7 @@ const Location = () => {
             <div className='happy-end'>
                 <p className='happy-title'>Ждем вас!</p>
                 <p className='happy-text'>С любовью, Саша и Лера</p>
-                <img className='happy-img' src={HappyEnd}></img>
+                <img className='happy-img' src={HappyEnd} alt='SashaandLera'></img>
             </div>
         </div>
     );
