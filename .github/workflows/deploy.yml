@@ -2,7 +2,7 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # Или ваша основная ветка
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
@@ -23,4 +23,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
-        keep_files: false # Очистить предыдущие файлы
