@@ -9,4 +9,6 @@ HTML, CSS, Javascript, React, Bootstrap
 
 ## Демонстрационные изображения
 
-<img width="700" src="demo.png" />
+<div align="center">
+  <img width="300" src="demo.png"/>
+</div>
