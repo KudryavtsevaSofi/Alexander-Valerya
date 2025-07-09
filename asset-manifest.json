@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Alexander-Valerya/static/css/main.452e5c02.css",
+    "main.js": "/Alexander-Valerya/static/js/main.6872bf18.js",
+    "static/js/453.6cde9130.chunk.js": "/Alexander-Valerya/static/js/453.6cde9130.chunk.js",
+    "static/media/happyend.png": "/Alexander-Valerya/static/media/happyend.acf28f65c95e0f346aa3.png",
+    "static/media/lera.png": "/Alexander-Valerya/static/media/lera.6099e71a748332f56bff.png",
+    "static/media/sasha.png": "/Alexander-Valerya/static/media/sasha.6e7bfc140252d5bf58e9.png",
+    "static/media/heart1.png": "/Alexander-Valerya/static/media/heart1.d3d767554bc8ecb53055.png",
+    "static/media/bouquet.png": "/Alexander-Valerya/static/media/bouquet.ad8933e4970edf1b8ecb.png",
+    "static/media/Disruptors_Script.otf": "/Alexander-Valerya/static/media/Disruptors_Script.9e9d493bb7bd43eb97a2.otf",
+    "static/media/zags3.jpg": "/Alexander-Valerya/static/media/zags3.63e9d9c3bfc5b4cf5792.jpg",
+    "static/media/gift3.png": "/Alexander-Valerya/static/media/gift3.4c3bec3c3ab30829df53.png",
+    "static/media/5stars.png": "/Alexander-Valerya/static/media/5stars.f969968bf7ddf7bcef65.png",
+    "static/media/kudry_weird-headline.otf": "/Alexander-Valerya/static/media/kudry_weird-headline.d1f886c2533c6e739d48.otf",
+    "static/media/AnnabelleCyr.ttf": "/Alexander-Valerya/static/media/AnnabelleCyr.ac3a622104aae97d1961.ttf",
+    "static/media/YsabeauSC-Light.ttf": "/Alexander-Valerya/static/media/YsabeauSC-Light.5862301912ce44c70ca4.ttf",
+    "static/media/collage3.jpg": "/Alexander-Valerya/static/media/collage3.61edd609abd381dcbfa2.jpg",
+    "static/media/zags2.jpg": "/Alexander-Valerya/static/media/zags2.14b3e9659b944c748b8b.jpg",
+    "static/media/2stars.png": "/Alexander-Valerya/static/media/2stars.3d17b95fa134529b3cd6.png",
+    "static/media/heart4.png": "/Alexander-Valerya/static/media/heart4.5bc96eb0f63da9a55b17.png",
+    "static/media/Antarctic.otf": "/Alexander-Valerya/static/media/Antarctic.68fbdd246ff94eb008e0.otf",
+    "static/media/heart3.png": "/Alexander-Valerya/static/media/heart3.efde0c82b2c99718473c.png",
+    "static/media/heart2.png": "/Alexander-Valerya/static/media/heart2.53bf095dac41a2de6efe.png",
+    "index.html": "/Alexander-Valerya/index.html",
+    "main.452e5c02.css.map": "/Alexander-Valerya/static/css/main.452e5c02.css.map",
+    "main.6872bf18.js.map": "/Alexander-Valerya/static/js/main.6872bf18.js.map",
+    "453.6cde9130.chunk.js.map": "/Alexander-Valerya/static/js/453.6cde9130.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.452e5c02.css",
+    "static/js/main.6872bf18.js"
+  ]
+}
